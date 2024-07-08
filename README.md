@@ -43,7 +43,7 @@ This script automates the backup of Apigee projects to Google Cloud Storage (GCS
 3. **Export ENV File:**
     ```bash
     export DISCORD="[YOUR_DISCORD_WEBHOOK_URL]"
-    export TOKEN=$(gcloud auth application-default print-acess-token)
+    export TOKEN=$(gcloud auth application-default print-access-token)
     export TAG="[USERID_1],[ROLEID_1],..."
     export GWS="[YOUR_GOOGLE_WORKSPACE_WEBHOOK_URL]"
     export GCS="[YOUR_GCS_BUCKET_NAME]"
