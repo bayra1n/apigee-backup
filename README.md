@@ -72,7 +72,7 @@ sudo ./apigee-backup -f project.txt --bucket=$GCS --retention=30
 
 **How it works:**
 
-- This example will back up all datasets from these 3 projects to your GCS bucket, retain backups for 30 days, and send notifications to your specified Discord channel and Google Workspace webhook URL.
+- This example will back up all Apigee data from these 3 projects to your GCS bucket, retain backups for 30 days, and send notifications to your specified Discord channel and Google Workspace webhook URL.
 
 ## Contributing
 
