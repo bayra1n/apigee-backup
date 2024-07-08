@@ -16,9 +16,31 @@ This script automates the backup of Apigee projects to Google Cloud Storage (GCS
 1. **Install the Google Cloud SDK:** Follow the instructions at [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install) to set up the Google Cloud command-line tools.
 2. **Install the Apigeecli:** Follow the instructions at [Install the Apigee CLI](https://github.com/apigee/apigeecli) to set up the Google Cloud command-line tools.
 3. **Permissions:** Ensure the account running the script has the necessary permissions in Google Cloud to access Apigee and GCS.
+   ```
+   Apigee :
+   - Apigee API Admin
+   - Apigee Developer Admin
+   - Apigee Environment Admin
+   - Apigee Portal Admin
+   - Logs Writer
+
+   Storage:
+   - Storage Admin
+
+   logs :
+   - Logs Writer
+   ```
 4. **Download apigee-backup:**
    ```
    curl -L -o apigee-backup https://github.com/bayra1n/apigee-backup/releases/download/latest/apigee-backup
+   ```
+5. **Give Permission:**
+   ```
+   chmod +x apigee-backup
+   ```
+6. **Install zip:**
+   ```
+   sudo apt update & sudo apt install zip
    ```
 
 ## Configuration
