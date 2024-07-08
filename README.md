@@ -81,7 +81,7 @@ sudo ./apigee-backup -f projects.txt --gcs=$GCS --retention=30 --token=$TOKEN --
 ## Usage
 
 ```bash
-sudo ./apigee-backup -f project.txt --bucket=$GCS --retention=30
+sudo ./apigee-backup -f project.txt --bucket=$GCS --retention=30 --token=$TOKEN
 ```
 
 * **`-f`:** Path to the project file (defaults to `projects.txt`).
