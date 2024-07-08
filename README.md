@@ -4,7 +4,7 @@ This script automates the backup of Apigee projects to Google Cloud Storage (GCS
 
 ## Features
 
-* **Multi-Project Support:** Back up datasets from multiple Google Cloud projects listed in a text file.
+* **Multi-Project Support:** Back up apigee data from multiple Google Cloud projects listed in a text file.
 * **GCS Storage:** Stores backups in your specified GCS bucket.
 * **Retention Policy:**  Configurable retention period to automatically delete old backups.
 * **Discord Notifications:** Sends success/failure notifications to a Discord channel via webhook.
